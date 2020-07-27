@@ -1,10 +1,15 @@
+import { createGlobalStyle } from 'styled-components';
+
+
+export default createGlobalStyle`
+
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: rgb(44, 86, 139);
   --black: #000010;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
@@ -24,3 +29,5 @@ body {
 a {
   color: inherit;
 } 
+
+`;

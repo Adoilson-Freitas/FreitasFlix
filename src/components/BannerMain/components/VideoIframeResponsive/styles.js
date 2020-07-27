@@ -4,7 +4,7 @@ export const VideoContainer = styled.div`
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 50%;
   @media (max-width: 800px) {
     display: none;
   }
@@ -16,6 +16,6 @@ export const ResponsiveIframe = styled.iframe`
   left: 0;
   bottom: 0;
   right: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
 `;

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  border: 2px solid;
   border-radius: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -31,10 +30,6 @@ export const VideoCardContainer = styled.a`
     margin-left: 20px;
   }
 
-  @media only screen and (max-width: 1175px) {
-    width: 258px;
-    height: 137px;
-  }
 
   @media only screen and (max-width: 1127px) {
     width: 90%;

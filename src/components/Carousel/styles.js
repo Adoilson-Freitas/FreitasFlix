@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 export const Title = styled.h3`
   font-style: normal;
-  font-weight: normal;
-  font-size: 35px;
+  font-weight: bold;
+  font-size: 25px;
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   background: red;
   line-height: 1;
   border-radius: 4px;
 
   @media (max-width: 800px) {
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px;
   }
 `;
@@ -43,19 +43,41 @@ export const VideoCardGroupContainer = styled.section`
 
   .slider {
     margin: 0;
-  padding-left: 0;
-  padding-bottom: 32px;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  width: 98%;
+    padding-left: 0;
+    padding-bottom: 32px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    margin: auto;
   li {
     margin-right: 16px;
   }
+
+  .slick-prev:before {
+  content: "<";
+  color: #fff;
+  font-size: 40px;
+}
+
+.slick-next:before {
+  content: ">";
+  color: #fff;
+  font-size: 40px;
+  margin-left: -70px;
+}
+
+@media only screen and (max-width: 488px) {
+    margin-left: 9%;
+    .slick-prev:before {
+      color: transparent; 
   }
 
-  @media only screen and (max-width: 488px) {
-    margin-left: 9%;
+  .slick-next:before {
+    color: transparent; 
+  }
+  }
 
+ 
   }
 `;

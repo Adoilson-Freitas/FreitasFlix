@@ -17,7 +17,7 @@ export const Nav = styled.a `
   padding-right: 5%;
 
   background: var(--black);
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
 
   body {
   --bodyPaddingTop: 94px;
