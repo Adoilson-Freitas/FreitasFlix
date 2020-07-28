@@ -41,43 +41,10 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 3%;
   margin-bottom: 16px;
 
-  .slider {
-    margin: 0;
-    padding-left: 0;
-    padding-bottom: 32px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    width: 94%;
-    margin: auto;
-  li {
-    margin-right: 16px;
-  }
-
-  .slick-prev:before {
-  content: "<";
-  color: #fff;
-  font-size: 40px;
-}
-
-.slick-next:before {
-  content: ">";
-  color: #fff;
-  font-size: 40px;
-  margin-left: -70px;
-}
-
-@media only screen and (max-width: 488px) {
-    margin-left: 9%;
-    .slick-prev:before {
-      color: transparent; 
-  }
-
-  .slick-next:before {
-    color: transparent; 
-  }
-  }
-
  
+ .slick-prev:before,
+ .slick-next:before {
+      color: #000040; 
+      font-size: 35px;
   }
 `;

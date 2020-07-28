@@ -7,8 +7,8 @@ export const VideoCardContainer = styled.a`
   cursor: pointer;
   color: white;
   flex: 0 0 298px;
-  width: 278px;
-  height: 157px;
+  width: 298px;
+  height: 177px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -29,12 +29,5 @@ export const VideoCardContainer = styled.a`
   &:not(:first-child) {
     margin-left: 20px;
   }
-
-
-  @media only screen and (max-width: 1127px) {
-    width: 90%;
-    height: 187px;
-  }
-
  
 `;
