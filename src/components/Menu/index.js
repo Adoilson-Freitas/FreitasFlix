@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import ImgLogo from '../../assets/img/freitasflix.png'
 import ButtonLink from '../ButtonLink';
 
@@ -8,13 +9,13 @@ export default function Menu() {
   return (
     <Nav>
       <Logo>
-        <a href="/">
+        <Link to="/">
         <img src={ImgLogo} alt="FreitasFlix Logo"/>
-        </a>
+        </Link>
       </Logo>
 
     
-        <ButtonLink as='a' href="/">
+        <ButtonLink as={Link} to="/cadastro/video">
           Novo Video
         </ButtonLink>
     </Nav>
