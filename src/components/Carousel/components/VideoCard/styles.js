@@ -18,12 +18,34 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   padding: 16px;
   transition: 400ms;
+  p {
+    margin-left: 320px;
+    transition: 600ms;
+    background-color: transparent;
+    color: transparent;
+    padding: 10px;
+    padding-right: 230px;
+    color: #fff;
+    width: 35vw;
+    background-color: #00C86F;
+    position: absolute;
+    font-size: 12px;
+
+  }
   &:hover {
     z-index: 40;
-    transform: scale(1.2);
+    transform: scale(1.03);
     box-shadow: inset 0 0 1em #000010, 0 0 1em #000030;
+  
+    p {
+    z-index: 58;
+    margin-left: 10px;
   }
   
+  }
+  
+ 
+
   &:not(:first-child) {
     margin-left: 20px;
   }
@@ -34,3 +56,4 @@ export const VideoCardContainer = styled.a`
 }
  
 `;
+
