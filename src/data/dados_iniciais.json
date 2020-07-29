@@ -1,5 +1,70 @@
 {
   "categorias": [
+
+
+    {
+      "titulo": "Animes",
+      "cor": "red",
+      "link_extra": {
+        "text": "Tauz Rap animes",
+        "url": "https://www.youtube.com/user/TauzOficial"
+      },
+      "videos": [
+        {
+          "titulo": "Rap do Luffy (One Piece)",
+          "url": "https://www.youtube.com/watch?v=abdtZgsZzYY"
+        },
+        {
+          "titulo": "Rap do Rock Lee (Naruto)",
+          "url": "https://www.youtube.com/watch?v=Gcp5oLGOqK8"
+        },
+        {
+          "titulo": "Rap do Zoro (One Piece)",
+          "url": "https://www.youtube.com/watch?v=NabGc3aYxno"
+        },
+        {
+          "titulo": "Rap do Gon (Hunter x Hunter)",
+          "url": "https://www.youtube.com/watch?v=jYq3WLqf1uI"
+        },
+        {
+          "titulo": "Rap do Eren (Attack on Titan)",
+          "url": "https://www.youtube.com/watch?v=QcknG8xuw5U"
+        },
+        {
+          "titulo": "Rap do Edward Elric (FullMetal Alchemist)",
+          "url": "https://www.youtube.com/watch?v=szyfDF_3lAg"
+        }
+      ]
+    },
+
+
+    {
+      "titulo": "Inglês",
+      "cor": "#000040",
+      "link_extra": {
+        "text": "SmallAdvantages",
+        "url": "https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag"
+      },
+      "videos": [
+        {
+          "titulo": "A PRONÚNCIA DE –ED: ESQUEÇA AS REGRAS",
+          "url": "https://www.youtube.com/watch?v=C4GtEIBCXq4&t=7s"
+        },
+        {
+          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNCIONA 95% DAS VEZES!",
+          "url": "https://www.youtube.com/watch?v=5gkZWcp_a08&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=1"
+        },
+        {
+          "titulo": "A DUPLA CONSOANTE DE INGLÊS! | MAGIC E #2",
+          "url": "https://www.youtube.com/watch?v=oYbGsuMO4Dk&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=2"
+        },
+        {
+          "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍCIL DE INGLÊS | QUICK TIP #29",
+          "url": "https://www.youtube.com/watch?v=KeqdGMNZgrM"
+        }
+      ]
+    },
+
     {
       "titulo": "Front End",
       "link": "https://www.alura.com.br/formacao-front-end",
@@ -9,11 +74,6 @@
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
-        {
-          "titulo": "Rap do Levi (Attack on Titan) | Tauz RapTributo 56",
-          "url": "https://youtu.be/bLFvmQ-pkJY"
-        },
-        
         {
           "titulo": "SEO com React",
           "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
@@ -78,37 +138,14 @@
       ]
     },
 
-    {
-      "titulo": "Inglês",
-      "cor": "#000040",
-      "link_extra": {
-        "text": "SmallAdvantages",
-        "url": "https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag"
-      },
-      "videos": [
-        {
-          "titulo": "A PRONÚNCIA DE –ED: ESQUEÇA AS REGRAS",
-          "url": "https://www.youtube.com/watch?v=C4GtEIBCXq4&t=7s"
-        },
-        {
-          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNCIONA 95% DAS VEZES!",
-          "url": "https://www.youtube.com/watch?v=5gkZWcp_a08&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=1"
-        },
-        {
-          "titulo": "A DUPLA CONSOANTE DE INGLÊS! | MAGIC E #2",
-          "url": "https://www.youtube.com/watch?v=oYbGsuMO4Dk&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=2"
-        },
-        {
-          "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍCIL DE INGLÊS | QUICK TIP #29",
-          "url": "https://www.youtube.com/watch?v=KeqdGMNZgrM"
-        }
-      ]
-    },
 
     {
       "titulo": "Filmes",
       "cor": "orange",
-      
+      "link_extra": {
+        "text": "Sony Pictures Brasil",
+        "url": "https://www.youtube.com/channel/UC9NXpIA01HVRhYgcEbs80Nw"
+      },
       "videos": [
         {
           "titulo": "Interestellar",
@@ -127,42 +164,7 @@
           "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
         }
       ]
-    },
-
-    {
-      "titulo": "Animes",
-      "cor": "red",
-      "link_extra": {
-        "text": "Tauz Rap animes",
-        "url": "https://www.youtube.com/user/TauzOficial"
-      },
-      "videos": [
-        {
-          "titulo": "Rap do Luffy (One Piece)",
-          "url": "https://www.youtube.com/watch?v=abdtZgsZzYY"
-        },
-        {
-          "titulo": "Rap do Rock Lee (Naruto)",
-          "url": "https://www.youtube.com/watch?v=Gcp5oLGOqK8"
-        },
-        {
-          "titulo": "Rap do Zoro (One Piece)",
-          "url": "https://www.youtube.com/watch?v=NabGc3aYxno"
-        },
-        {
-          "titulo": "Rap do Gon (Hunter x Hunter)",
-          "url": "https://www.youtube.com/watch?v=jYq3WLqf1uI"
-        },
-        {
-          "titulo": "Rap do Eren (Attack on Titan)",
-          "url": "https://www.youtube.com/watch?v=QcknG8xuw5U"
-        },
-        {
-          "titulo": "Rap do Edward Elric (FullMetal Alchemist)",
-          "url": "https://www.youtube.com/watch?v=szyfDF_3lAg"
-        }
-      ]
     }
-    
+  
   ]
 }

@@ -14,7 +14,7 @@ export default function Carousel({
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-        <>
+        <div className="texto">
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
@@ -23,7 +23,7 @@ export default function Carousel({
               {categoryExtraLink.text}  
             </ExtraLink>
           }
-        </>
+        </div>
       )}
       <Slider>
         {videos.map((video, index) => {

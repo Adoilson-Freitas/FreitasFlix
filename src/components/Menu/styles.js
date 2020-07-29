@@ -26,7 +26,6 @@ export const Nav = styled.a `
 
   @media (max-width: 800px) {
     height: 50px;
-    justify-content: center;
   }
   body {
     --bodyPaddingTop: 40px;

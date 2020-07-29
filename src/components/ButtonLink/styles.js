@@ -60,27 +60,12 @@ a:hover::after
 
    @media (max-width: 800px) {
     a {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: -10px;
-    background: var(--black);
-    border-radius: 0;
-    border: 0;
-    text-align: center;
-    width: 100%;
-    transition: opacity .3s;
-    box-sizing: border-box;
-    height: 60px;
+      padding: 4px 12px;
+      font-size: 13px;
     }
-   a:hover,
-   a:focus {
-  opacity: 0.9;
-  }
 
-  a::before, a::after {
-    background: transparent;
-  }
+   
+
 }
 
 `;

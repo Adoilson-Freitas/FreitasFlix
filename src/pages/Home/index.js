@@ -7,15 +7,14 @@ import PageDefault from '../../components/PageDefault';
 export default function Home() {
   return (
     <PageDefault>
-        <BannerMain
-          videoTitle={data.categorias[0].videos[0].titulo}
-          url={data.categorias[0].videos[0].url}
-        />
-        <Carousel category={data.categorias[4]} />
-        <Carousel ignoreFirstVideo category={data.categorias[0]} />
-        <Carousel category={data.categorias[1]} />
-        <Carousel category={data.categorias[2]} />   
-      
+         <BannerMain
+        videoTitle={data.categorias[0].videos[0].titulo}
+        url={data.categorias[0].videos[0].url}
+        videoDescription={''}
+      />
+      {data.categorias.map((categoria) => (
+        <Carousel key={categoria.cor} category={categoria} />
+      ))}
       </PageDefault>
   );
 }

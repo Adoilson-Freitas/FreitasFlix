@@ -10,9 +10,6 @@ export const FooterBase = styled.footer`
   padding-bottom: 32px;
   color: var(--white);
   text-align: center;
-  @media (max-width: 800px) {
-    margin-bottom: 50px;
-  }
 
   a.dev {
     color: #ff0000;
@@ -21,4 +18,18 @@ export const FooterBase = styled.footer`
   a.dev:hover {
     opacity: 0.7;
   }
+`;
+
+
+export const Logo = styled.div `
+  img {
+    max-width: 168px;
+  }
+
+@media (max-width: 800px) {
+    img {
+      max-width: 115px;
+    }
+}
+
 `;
