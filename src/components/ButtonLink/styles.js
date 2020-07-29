@@ -21,8 +21,8 @@ a
 
 a:hover {
   transition: 800ms;
-  border: 2px solid #00C86F;
-  color: #00C86F;
+  border: 2px solid #6BD1FF;
+  color: #6BD1FF;
 }
 
 a::before, a::after

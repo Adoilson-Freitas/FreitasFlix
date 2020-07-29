@@ -65,6 +65,8 @@ ContentAreaContainer.Title = styled.h2`
     font-size: 32px;
     text-align: center;
   }
+
+ 
 `;
 
 export const BannerMainContainer = styled.section`
@@ -79,7 +81,11 @@ export const BannerMainContainer = styled.section`
     height: auto;
     min-height: 50vh;
   }
+  @media (max-width: 400px) {
+    height: 50vh;
+    margin-top: -55px;
 
+  }
   &:after,
   &:before {
     content: "";

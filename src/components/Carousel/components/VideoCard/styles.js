@@ -25,9 +25,9 @@ export const VideoCardContainer = styled.a`
     color: transparent;
     padding: 10px;
     padding-right: 230px;
-    color: #fff;
-    width: 35vw;
-    background-color: #00C86F;
+    color: #000;
+    width: 100vw;
+    background-color: #6BD1FF;
     position: absolute;
     font-size: 12px;
 
@@ -53,6 +53,9 @@ export const VideoCardContainer = styled.a`
   @media (max-width: 410px) {
     width: 178px;
     height: 77px;
+    p {
+      font-size: 10px;
+    }
 }
  
 `;

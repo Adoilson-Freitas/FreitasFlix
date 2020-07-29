@@ -1,106 +1,107 @@
 {
   "categorias": [
-
-
-    {
-      "titulo": "Animes",
-      "cor": "red",
-      "link_extra": {
-        "text": "Tauz Rap animes",
-        "url": "https://www.youtube.com/user/TauzOficial"
-      },
-      "videos": [
-        {
-          "titulo": "Rap do Luffy (One Piece)",
-          "url": "https://www.youtube.com/watch?v=abdtZgsZzYY"
-        },
-        {
-          "titulo": "Rap do Rock Lee (Naruto)",
-          "url": "https://www.youtube.com/watch?v=Gcp5oLGOqK8"
-        },
-        {
-          "titulo": "Rap do Zoro (One Piece)",
-          "url": "https://www.youtube.com/watch?v=NabGc3aYxno"
-        },
-        {
-          "titulo": "Rap do Gon (Hunter x Hunter)",
-          "url": "https://www.youtube.com/watch?v=jYq3WLqf1uI"
-        },
-        {
-          "titulo": "Rap do Eren (Attack on Titan)",
-          "url": "https://www.youtube.com/watch?v=QcknG8xuw5U"
-        },
-        {
-          "titulo": "Rap do Edward Elric (FullMetal Alchemist)",
-          "url": "https://www.youtube.com/watch?v=szyfDF_3lAg"
-        }
-      ]
-    },
-
+  
 
     {
       "titulo": "Inglês",
-      "cor": "#000040",
+      "cor": "#ff0000",
       "link_extra": {
         "text": "SmallAdvantages",
         "url": "https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag"
       },
       "videos": [
         {
-          "titulo": "A PRONÚNCIA DE –ED: ESQUEÇA AS REGRAS",
+          "titulo": "A PRONÚNCIA DE –ED",
           "url": "https://www.youtube.com/watch?v=C4GtEIBCXq4&t=7s"
         },
         {
-          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNCIONA 95% DAS VEZES!",
+          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNC...!",
           "url": "https://www.youtube.com/watch?v=5gkZWcp_a08&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=1"
         },
         {
-          "titulo": "A DUPLA CONSOANTE DE INGLÊS! | MAGIC E #2",
+          "titulo": "A DUPLA CONSOANTE DE INGLÊS!",
           "url": "https://www.youtube.com/watch?v=oYbGsuMO4Dk&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=2"
         },
         {
-          "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍCIL DE INGLÊS | QUICK TIP #29",
+          "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍC...",
           "url": "https://www.youtube.com/watch?v=KeqdGMNZgrM"
         }
       ]
     },
 
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Ingles",
+      "cor": "#000040",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Ask Jackie",
+        "url": "https://www.youtube.com/channel/UCsI67ypZHHVoatvxzLBiNvg"
       },
       "videos": [
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "8 jeitos comuns de dizer (Não entendi) em inglês",
+          "url": "https://www.youtube.com/watch?v=OISnvDRyBTo"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Qual é a diferença entre OTHER e ANOTHER?",
+          "url": "https://www.youtube.com/watch?v=OlowLiigZ3k"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "7 frases em inglês que NÃO SIGNIFICAM o que parecem",
+          "url": "https://www.youtube.com/watch?v=AGrzYJEdV9U"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "10 formas de dizer (De Nada)",
+          "url": "https://www.youtube.com/watch?v=eFEdCNvvrnk"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "(TWO,) (TO) e (TOO )NÃO têm a mesma pronúncia!",
+          "url": "https://youtu.be/yN4fqHT-UtU?list=PLjpyEr5lZ3vv1ZV7om_3xaAIoAyOUnROc"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "USED TO X BE USED TO X GET USED TO I",
+          "url": "https://www.youtube.com/watch?v=CqAxROO0-jY"
+        }
+      ]
+    },
+
+
+   
+
+    {
+      "titulo": "Ingles",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Mairo Vergara",
+        "url": "https://www.youtube.com/user/MairoVergara"
+      },
+      "videos": [
+        {
+          "titulo": "Inglês com Filmes & Séries 009: The Hateful Eight",
+          "url": "https://www.youtube.com/watch?v=8MGhNvBO2FE"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "On The One Hand, On The Other Hand...",
+          "url": "https://www.youtube.com/watch?v=cDbYXFZojiE"
+        },
+        {
+          "titulo": "I'm game | O que significa esta expressão?",
+          "url": "https://www.youtube.com/watch?v=dkx0vdxkzGM"
+        },
+        {
+          "titulo": "Inglês com Filmes & Séries 003: The Dark Knight",
+          "url": "https://www.youtube.com/watch?v=oD5Rb0BVFPs"
+        },
+        {
+          "titulo": "Como se diz “O Tempo Todo” em inglês?",
+          "url": "https://www.youtube.com/watch?v=KRrHERZtShE"
+        },
+        {
+          "titulo": "Como se diz “Sabichão” em inglês?",
+          "url": "https://www.youtube.com/watch?v=Yu7YitSTjHU"
+        },
+        {
+          "titulo": "O 5º SEGREDO PARA APRENDER INGLES",
+          "url": "https://www.youtube.com/watch?v=20ScORRTSMo"
         }        
       ]
     },
@@ -108,60 +109,76 @@
     
     
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Ingles",
+      "cor": "#e932cd",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "English in Brazil by Carina Fragozo",
+        "url": "https://www.youtube.com/channel/UCcNm9fM9V5wf-0PZVmkM08g"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Aprender inglês: POR ONDE COMEÇAR?",
+          "url": "https://www.youtube.com/watch?v=OhGWrVK8iwE"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "TESTE DE PRONÚNCIA (nível HARD!)",
+          "url": "https://www.youtube.com/watch?v=ElvPlDVh1og"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "50 FRASES ESSENCIAIS EM INGLÊS (em 10 minutos!)",
+          "url": "https://www.youtube.com/watch?v=PJT6vROO3eM"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "OS 10 VERBOS MAIS USADOS NO INGLÊS",
+          "url": "https://www.youtube.com/watch?v=7V68WIFtZww"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "INGLÊS NO RESTAURANTE",
+          "url": "https://www.youtube.com/watch?v=D-I9422m2o8"
+        },
+        {
+          "titulo": "COMO FALAR AO TELEFONE EM INGLÊS",
+          "url": "https://www.youtube.com/watch?v=8B4viMZMO1I"
+        },
+        {
+          "titulo": "MELHORE SUA PRONÚNCIA: VOGA...",
+          "url": "https://www.youtube.com/watch?v=EggGC9BtWUs"
         }
       ]
     },
 
 
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Ingles",
+      "cor": "#49200b",
       "link_extra": {
-        "text": "Sony Pictures Brasil",
-        "url": "https://www.youtube.com/channel/UC9NXpIA01HVRhYgcEbs80Nw"
+        "text": "Rhavi Carneiro's Fluency TV",
+        "url": "https://www.youtube.com/channel/UCom75ytjvnPcVwX5yAOvXbA"
       },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Aprenda 3 expressões importantes com (what)",
+          "url": "https://www.youtube.com/watch?v=Z60ND_eEZpA"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Cup or glass? Como dizer copo em inglês",
+          "url": "https://www.youtube.com/watch?v=qX84Tv5E3Sc"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Aprenda a pronunciar WORLD e GIRL,",
+          "url": "https://www.youtube.com/watch?v=UG389G3b9QI"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "O que significa (don't pass me by?)",
+          "url": "https://www.youtube.com/watch?v=GNSv-TTN_j0"
+        },
+        {
+          "titulo": "Fluency Talks - Prática de Conversação",
+          "url": "https://www.youtube.com/watch?v=BdvdeX_MXyc"
+        },
+        {
+          "titulo": "AULA DE GRAMÁTICA: FALANDO SOBRE FUTURO",
+          "url": "https://www.youtube.com/watch?v=wqOo7X7eoE0"
         }
       ]
     }
