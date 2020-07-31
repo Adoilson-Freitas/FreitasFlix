@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import { Main, Button } from './styles';
+import { Main, Button, Loading } from './styles';
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
@@ -28,7 +28,7 @@ export default function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'https://freitasflix.herokuapp.com/categorias';
+      const URL = 'https://english-flix.herokuapp.com/categorias';
       fetch(URL).then(async (response) => {
         if (response.ok) {
           const resposta = await response.json();
@@ -43,7 +43,7 @@ export default function CadastroCategoria() {
   return (
     <PageDefault>
       <Main>
-        <h1>Cadastro de Categoria: {values.nome}</h1>
+        <h1>Cadastro de Canal de inglês: {values.nome}</h1>
 
         <form
           onSubmit={function handleSubmit(infosDoEvento) {
@@ -55,7 +55,7 @@ export default function CadastroCategoria() {
           }}
         >
           <FormField
-            label="Nome da Categoria"
+            label="Nome da canal"
             type="text"
             name="nome"
             value={values.nome}
@@ -63,7 +63,7 @@ export default function CadastroCategoria() {
           />
 
           <FormField
-            label="Descrição:"
+            label="Descrição"
             type="textarea"
             name="descricao"
             value={values.descricao}
@@ -85,7 +85,12 @@ export default function CadastroCategoria() {
           </Button>
         </form>
 
-        {categorias.length === 0 && <div>Loading </div>}
+        {categorias.length === 0 && (
+          <Loading>
+            <div className="text">Loading...</div>
+            <div className="ring" />
+          </Loading>
+        )}
         <table>
           <tbody>
             <tr>

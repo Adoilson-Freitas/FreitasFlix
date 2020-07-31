@@ -4,6 +4,7 @@
 
     {
       "titulo": "SmallAdvantages",
+      "descricao": "Canal para estudar inglês",
       "cor": "#ff0000",
       "link_extra": {
         "text": "Ingles",
@@ -31,6 +32,7 @@
 
     {
       "titulo": "Ask Jackie",
+      "descricao": "Canal para estudar inglês",
       "cor": "#000080",
       "link_extra": {
         "text": "Visitar canal",
@@ -62,13 +64,12 @@
           "url": "https://www.youtube.com/watch?v=CqAxROO0-jY"
         }
       ]
-    },
-
-
-   
+    },   
 
     {
       "titulo": "Mairo Vergara",
+      "descricao": "Canal para estudar inglês",
+
       "cor": "#6B00FF",
       "link_extra": {
         "text": "Visitar canal",
@@ -110,6 +111,7 @@
     
     {
       "titulo": "English in Brazil byCarina Fragozo",
+      "descricao": "Canal para estudar inglês",
       "cor": "#e932cd",
       "link_extra": {
         "text": "Visitar canal",
@@ -150,6 +152,7 @@
 
     {
       "titulo": "Rhavi Carneiro's Fluency TV",
+      "descricao": "Canal para estudar inglês",
       "cor": "#49200b",
       "link_extra": {
         "text": "Visitar canal",

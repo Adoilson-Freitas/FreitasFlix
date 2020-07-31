@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Main = styled.div`
   table {
     border-collapse: collapse;
-    width: 80%;
+    width: 90%;
     margin-bottom: 30px;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   th,
@@ -24,7 +24,7 @@ export const Main = styled.div`
   }
 
   td.titulo {
-    width: 30%;
+    width: 40%;
     border-radius: 6px;
   }
 
@@ -96,5 +96,43 @@ export const Button = styled.div`
   }
   button:hover::after {
     right: 80%;
+  }
+`;
+export const Loading = styled.div`
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .ring {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    box-shadow: 0 4px 0 #ddd;
+    background: transparent;
+    margin-top: -40px;
+    animation: animate 1s linear infinite;
+  }
+  .text {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: #888;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    background: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 `;
