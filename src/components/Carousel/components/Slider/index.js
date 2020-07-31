@@ -15,7 +15,7 @@ const Container = styled.div`
   }
 
   .slick-prev {
-    left: -2px;
+    left: -20px;
   }
   .slick-next {
     right: 16px;
@@ -29,8 +29,7 @@ const Container = styled.div`
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
-  margin-left: 46px;
+  margin-left: 15px;
 
   img {
     margin: 16px;
