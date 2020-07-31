@@ -26,6 +26,16 @@ const Container = styled.div`
     color: ${({ categoryColor }) => categoryColor};
     text-shadow: 0 0 8px ${({ categoryColor }) => categoryColor};
   }
+
+  @media (max-width: 410px) {
+    .slick-prev {
+      left: -4px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 22px;
+    }
+  }
 `;
 
 export const SliderItem = styled.li`
