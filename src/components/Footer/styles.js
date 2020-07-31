@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const FooterBase = styled.footer`
   background: var(--black);
   border-top: 1px solid var(--primary);
@@ -20,16 +19,14 @@ export const FooterBase = styled.footer`
   }
 `;
 
-
-export const Logo = styled.div `
+export const Logo = styled.div`
   img {
     max-width: 168px;
   }
 
-@media (max-width: 800px) {
+  @media (max-width: 800px) {
     img {
       max-width: 115px;
     }
-}
-
+  }
 `;

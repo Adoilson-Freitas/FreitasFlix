@@ -5,5 +5,4 @@ export const Main = styled.main`
   color: var(--white);
   flex: 1;
   padding-top: 90px;
-  
 `;

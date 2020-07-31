@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Nav = styled.a `
- width: 100%;
+export const Nav = styled.a`
+  width: 100%;
   height: 94px;
   z-index: 100;
 
@@ -20,9 +20,9 @@ export const Nav = styled.a `
   border-bottom: 1px solid var(--primary);
 
   body {
-  --bodyPaddingTop: 94px;
-  padding-top: var(--bodyPaddingTop);
-}
+    --bodyPaddingTop: 94px;
+    padding-top: var(--bodyPaddingTop);
+  }
 
   @media (max-width: 800px) {
     height: 50px;
@@ -31,18 +31,16 @@ export const Nav = styled.a `
     --bodyPaddingTop: 40px;
     padding-top: var(--bodyPaddingTop);
   }
-
 `;
 
-export const Logo = styled.div `
+export const Logo = styled.div`
   img {
     max-width: 168px;
   }
 
-@media (max-width: 800px) {
+  @media (max-width: 800px) {
     img {
       max-width: 115px;
     }
-}
+  }
 `;
-

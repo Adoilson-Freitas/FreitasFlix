@@ -10,18 +10,17 @@ function ButtonLink({ className, to, children }) {
         {children}
       </Link>
     </Button>
-    
   );
 }
 
 ButtonLink.defaultProps = {
-  href: '/',
+  to: '/',
   className: '',
 };
 
 ButtonLink.propTypes = {
   className: PropTypes.string,
-  href: PropTypes.string,
+  to: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
 

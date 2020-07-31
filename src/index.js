@@ -10,14 +10,13 @@ import PaginaErro from './pages/404';
 
 ReactDOM.render(
   <BrowserRouter>
-  <GlobalStyle />
+    <GlobalStyle />
     <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route path="/cadastro/video" component={CadastroVideo}/>
-      <Route path="/cadastro/categoria" component={CadastroCategoria}/>
-      <Route component={PaginaErro}/>
+      <Route exact path="/" component={Home} />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route component={PaginaErro} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
 );
-
