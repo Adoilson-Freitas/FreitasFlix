@@ -24,6 +24,7 @@ export const VideoCardContainer = styled.a`
     background-color: transparent;
     color: transparent;
     padding: 20px;
+    bottom: -5px;
     padding-right: 230px;
     color: #fff;
     width: 100vw;
@@ -38,7 +39,7 @@ export const VideoCardContainer = styled.a`
 
     p {
       z-index: 58;
-      margin-left: 10px;
+      margin-left: -10px;
     }
   }
 

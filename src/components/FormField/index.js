@@ -15,6 +15,7 @@ export default function FormField({ label, type, name, value, onChange }) {
           value={value}
           name={name}
           onChange={onChange}
+          required
         />
         <Label.Text>{label}</Label.Text>
       </Label>

@@ -52,11 +52,6 @@ export const VideoCardGroupContainer = styled.section`
   @media (max-width: 410px) {
     margin-bottom: -20px;
 
-    .slick-prev:before,
-    .slick-next:before {
-      font-size: 1px;
-    }
-
     .texto {
       display: flex;
       align-items: center;

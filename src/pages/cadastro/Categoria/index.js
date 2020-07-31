@@ -5,7 +5,7 @@ import { Main, Button, Loading } from './styles';
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#ff0000',
   };
@@ -27,23 +27,20 @@ export default function CadastroCategoria() {
   }
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'https://english-flix.herokuapp.com/categorias';
-      fetch(URL).then(async (response) => {
-        if (response.ok) {
-          const resposta = await response.json();
-          setCategorias(resposta);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
-      });
-    }
+    const URL_DB = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3333/categorias'
+      : 'https://english-flix.herokuapp.com/categorias';
+
+    fetch(URL_DB).then(async (serverDados) => {
+      const dados = await serverDados.json();
+      setCategorias([...dados]);
+    });
   }, []);
 
   return (
     <PageDefault>
       <Main>
-        <h1>Cadastro de Canal de inglês: {values.nome}</h1>
+        <h1>Cadastro de Canal de inglês: {values.titulo}</h1>
 
         <form
           onSubmit={function handleSubmit(infosDoEvento) {
@@ -57,8 +54,8 @@ export default function CadastroCategoria() {
           <FormField
             label="Nome da canal"
             type="text"
-            name="nome"
-            value={values.nome}
+            name="titulo"
+            value={values.titulo}
             onChange={handleChange}
           />
 
