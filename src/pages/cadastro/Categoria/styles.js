@@ -11,11 +11,21 @@ export const Main = styled.div`
   th,
   td {
     text-align: left;
-    padding: 8px;
+    padding: 4px;
+    margin: 10px;
   }
 
   tr:nth-child(even) {
     background-color: #44444455;
+  }
+
+  td {
+    border: 1px solid #000;
+  }
+
+  td.titulo {
+    width: 30%;
+    border-radius: 6px;
   }
 
   th {

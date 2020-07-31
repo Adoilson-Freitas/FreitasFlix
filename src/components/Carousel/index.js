@@ -8,6 +8,7 @@ export default function Carousel({ ignoreFirstVideo, category }) {
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const { videos } = category;
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -22,7 +23,7 @@ export default function Carousel({ ignoreFirstVideo, category }) {
           )}
         </div>
       )}
-      <Slider>
+      <Slider categoryColor={categoryColor}>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;

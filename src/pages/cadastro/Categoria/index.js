@@ -28,7 +28,7 @@ export default function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:3333/categorias';
+      const URL = 'https://freitasflix.herokuapp.com/categorias';
       fetch(URL).then(async (response) => {
         if (response.ok) {
           const resposta = await response.json();
@@ -84,21 +84,26 @@ export default function CadastroCategoria() {
             <button type="submit">Cadastrar</button>
           </Button>
         </form>
+
+        {categorias.length === 0 && <div>Loading </div>}
         <table>
           <tbody>
             <tr>
               <th>Nome</th>
               <th>Descrição</th>
-              <th>Cor</th>
-              <th>Excluir</th>
             </tr>
             {categorias.map((categoria) => {
               return (
                 <tr key={categoria.id}>
-                  <td>{categoria.titulo}</td>
+                  <td
+                    className="titulo"
+                    style={{
+                      backgroundColor: `${categoria.cor}`,
+                    }}
+                  >
+                    {categoria.titulo}
+                  </td>
                   <td>{categoria.descricao}</td>
-                  <td>{categoria.cor}</td>
-                  <td>Excluir</td>
                 </tr>
               );
             })}

@@ -23,40 +23,40 @@ export const VideoCardContainer = styled.a`
     transition: 600ms;
     background-color: transparent;
     color: transparent;
-    padding: 10px;
+    padding: 20px;
     padding-right: 230px;
-    color: #000;
+    color: #fff;
     width: 100vw;
-    background-color: #6BD1FF;
     position: absolute;
-    font-size: 12px;
-
+    font-size: 14px;
+    border-radius: 0 10px 0;
   }
   &:hover {
     z-index: 40;
     transform: scale(1.03);
     box-shadow: inset 0 0 1em #000010, 0 0 1em #000030;
-  
+
     p {
-    z-index: 58;
-    margin-left: 10px;
+      z-index: 58;
+      margin-left: 10px;
+    }
   }
-  
-  }
-  
- 
 
   &:not(:first-child) {
     margin-left: 20px;
   }
 
+  @media (max-width: 810px) {
+    p {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
   @media (max-width: 410px) {
     width: 178px;
     height: 77px;
     p {
       font-size: 10px;
     }
-}
- 
+  }
 `;
-

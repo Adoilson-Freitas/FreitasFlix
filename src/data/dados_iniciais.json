@@ -3,10 +3,10 @@
   
 
     {
-      "titulo": "Inglês",
+      "titulo": "SmallAdvantages",
       "cor": "#ff0000",
       "link_extra": {
-        "text": "SmallAdvantages",
+        "text": "Ingles",
         "url": "https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag"
       },
       "videos": [
@@ -30,10 +30,10 @@
     },
 
     {
-      "titulo": "Ingles",
-      "cor": "#000040",
+      "titulo": "Ask Jackie",
+      "cor": "#000080",
       "link_extra": {
-        "text": "Ask Jackie",
+        "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCsI67ypZHHVoatvxzLBiNvg"
       },
       "videos": [
@@ -68,10 +68,10 @@
    
 
     {
-      "titulo": "Ingles",
-      "cor": "#6BD1FF",
+      "titulo": "Mairo Vergara",
+      "cor": "#6B00FF",
       "link_extra": {
-        "text": "Mairo Vergara",
+        "text": "Visitar canal",
         "url": "https://www.youtube.com/user/MairoVergara"
       },
       "videos": [
@@ -109,10 +109,10 @@
     
     
     {
-      "titulo": "Ingles",
+      "titulo": "English in Brazil byCarina Fragozo",
       "cor": "#e932cd",
       "link_extra": {
-        "text": "English in Brazil by Carina Fragozo",
+        "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCcNm9fM9V5wf-0PZVmkM08g"
       },
       "videos": [
@@ -149,10 +149,10 @@
 
 
     {
-      "titulo": "Ingles",
+      "titulo": "Rhavi Carneiro's Fluency TV",
       "cor": "#49200b",
       "link_extra": {
-        "text": "Rhavi Carneiro's Fluency TV",
+        "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCom75ytjvnPcVwX5yAOvXbA"
       },
       "videos": [

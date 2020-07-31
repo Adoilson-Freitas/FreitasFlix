@@ -2,7 +2,7 @@ import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
-const Container = styled.ul`
+const Container = styled.div`
   padding: 0;
   margin: 0;
   .slick-prev,
@@ -15,15 +15,23 @@ const Container = styled.ul`
   }
 
   .slick-prev {
-    left: 0;
+    left: -2px;
   }
   .slick-next {
     right: 16px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 35px;
+    color: ${({ categoryColor }) => categoryColor};
+    text-shadow: 0 0 8px ${({ categoryColor }) => categoryColor};
   }
 `;
 
 export const SliderItem = styled.li`
   margin-right: 16px;
+  margin-left: 46px;
+
   img {
     margin: 16px;
     width: 298px;
@@ -32,8 +40,8 @@ export const SliderItem = styled.li`
   }
 `;
 
-const Slider = ({ children }) => (
-  <Container>
+const Slider = ({ categoryColor, children }) => (
+  <Container categoryColor={categoryColor}>
     <SlickSlider
       {...{
         dots: false,

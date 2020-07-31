@@ -1,12 +1,12 @@
 import React from 'react';
 import { FooterBase, Logo } from './styles';
-import Img from '../../assets/img/freitasflix.png';
+import Img from '../../assets/img/logo.png';
 
 function Footer() {
   return (
     <FooterBase>
       <Logo>
-        <img src={Img} alt="FreitasFlixLogo" />
+        <img src={Img} alt="EnglishFlix" />
       </Logo>
       <p>
         Desenvolvido por{' '}

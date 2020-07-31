@@ -3,13 +3,14 @@ import styled from 'styled-components';
 export const Title = styled.h3`
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
   padding: 10px;
   line-height: 1;
-  border-radius: 4px;
+  border-radius: 0 0 0 20px;
+  box-shadow: 0 0 8px #099;
 
   @media (max-width: 800px) {
     font-size: 14px;
@@ -47,12 +48,6 @@ export const VideoCardGroupContainer = styled.section`
   min-height: 197px;
   margin-left: 3%;
   margin-bottom: 16px;
-
-  .slick-prev:before,
-  .slick-next:before {
-    color: #000040;
-    font-size: 35px;
-  }
 
   @media (max-width: 410px) {
     margin-bottom: -20px;
