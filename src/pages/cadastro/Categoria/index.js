@@ -20,7 +20,7 @@ export default function CadastroCategoria() {
   useEffect(() => {
     const URL_DB = window.location.hostname.includes('localhost')
       ? 'http://localhost:3333/categorias'
-      : `${config.URL_BACKEND}categorias`;
+      : `${config.URL_BACKEND}/categorias`;
 
     fetch(URL_DB).then(async (serverDados) => {
       const dados = await serverDados.json();
