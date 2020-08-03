@@ -1,190 +1,242 @@
 {
   "categorias": [
-  
-
     {
+      "id": 1,
       "titulo": "SmallAdvantages",
       "descricao": "Canal para estudar inglês",
       "cor": "#ff0000",
       "link_extra": {
-        "text": "Ingles",
+        "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag"
-      },
-      "videos": [
-        {
-          "titulo": "A PRONÚNCIA DE –ED",
-          "url": "https://www.youtube.com/watch?v=C4GtEIBCXq4&t=7s"
-        },
-        {
-          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNC...!",
-          "url": "https://www.youtube.com/watch?v=5gkZWcp_a08&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=1"
-        },
-        {
-          "titulo": "A DUPLA CONSOANTE DE INGLÊS!",
-          "url": "https://www.youtube.com/watch?v=oYbGsuMO4Dk&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=2"
-        },
-        {
-          "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍC...",
-          "url": "https://www.youtube.com/watch?v=KeqdGMNZgrM"
-        }
-      ]
+      }
     },
-
     {
+      "id": 2,
+      "titulo": "Mairo Vergara",
+      "descricao": "Canal para estudar inglês",
+      "cor": "#6B00FF",
+      "link_extra": {
+        "text": "Visitar canal",
+        "url": "https://www.youtube.com/user/MairoVergara"
+      }
+    },
+    {
+      "id": 3,
       "titulo": "Ask Jackie",
       "descricao": "Canal para estudar inglês",
       "cor": "#000080",
       "link_extra": {
         "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCsI67ypZHHVoatvxzLBiNvg"
-      },
-      "videos": [
-        {
-          "titulo": "8 jeitos comuns de dizer (Não entendi) em inglês",
-          "url": "https://www.youtube.com/watch?v=OISnvDRyBTo"
-        },
-        {
-          "titulo": "Qual é a diferença entre OTHER e ANOTHER?",
-          "url": "https://www.youtube.com/watch?v=OlowLiigZ3k"
-        },
-        {
-          "titulo": "7 frases em inglês que NÃO SIGNIFICAM o que parecem",
-          "url": "https://www.youtube.com/watch?v=AGrzYJEdV9U"
-        },
-        {
-          "titulo": "10 formas de dizer (De Nada)",
-          "url": "https://www.youtube.com/watch?v=eFEdCNvvrnk"
-        },
-        {
-          "titulo": "(TWO,) (TO) e (TOO )NÃO têm a mesma pronúncia!",
-          "url": "https://youtu.be/yN4fqHT-UtU?list=PLjpyEr5lZ3vv1ZV7om_3xaAIoAyOUnROc"
-        },
-        {
-          "titulo": "USED TO X BE USED TO X GET USED TO I",
-          "url": "https://www.youtube.com/watch?v=CqAxROO0-jY"
-        }
-      ]
-    },   
-
-    {
-      "titulo": "Mairo Vergara",
-      "descricao": "Canal para estudar inglês",
-
-      "cor": "#6B00FF",
-      "link_extra": {
-        "text": "Visitar canal",
-        "url": "https://www.youtube.com/user/MairoVergara"
-      },
-      "videos": [
-        {
-          "titulo": "Inglês com Filmes & Séries 009: The Hateful Eight",
-          "url": "https://www.youtube.com/watch?v=8MGhNvBO2FE"
-        },
-        {
-          "titulo": "On The One Hand, On The Other Hand...",
-          "url": "https://www.youtube.com/watch?v=cDbYXFZojiE"
-        },
-        {
-          "titulo": "I'm game | O que significa esta expressão?",
-          "url": "https://www.youtube.com/watch?v=dkx0vdxkzGM"
-        },
-        {
-          "titulo": "Inglês com Filmes & Séries 003: The Dark Knight",
-          "url": "https://www.youtube.com/watch?v=oD5Rb0BVFPs"
-        },
-        {
-          "titulo": "Como se diz “O Tempo Todo” em inglês?",
-          "url": "https://www.youtube.com/watch?v=KRrHERZtShE"
-        },
-        {
-          "titulo": "Como se diz “Sabichão” em inglês?",
-          "url": "https://www.youtube.com/watch?v=Yu7YitSTjHU"
-        },
-        {
-          "titulo": "O 5º SEGREDO PARA APRENDER INGLES",
-          "url": "https://www.youtube.com/watch?v=20ScORRTSMo"
-        }        
-      ]
+      }
     },
-
-    
-    
     {
+      "id": 4,
       "titulo": "English in Brazil byCarina Fragozo",
       "descricao": "Canal para estudar inglês",
       "cor": "#e932cd",
       "link_extra": {
         "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCcNm9fM9V5wf-0PZVmkM08g"
-      },
-      "videos": [
-        {
-          "titulo": "Aprender inglês: POR ONDE COMEÇAR?",
-          "url": "https://www.youtube.com/watch?v=OhGWrVK8iwE"
-        },
-        {
-          "titulo": "TESTE DE PRONÚNCIA (nível HARD!)",
-          "url": "https://www.youtube.com/watch?v=ElvPlDVh1og"
-        },
-        {
-          "titulo": "50 FRASES ESSENCIAIS EM INGLÊS (em 10 minutos!)",
-          "url": "https://www.youtube.com/watch?v=PJT6vROO3eM"
-        },
-        {
-          "titulo": "OS 10 VERBOS MAIS USADOS NO INGLÊS",
-          "url": "https://www.youtube.com/watch?v=7V68WIFtZww"
-        }, 
-        {
-          "titulo": "INGLÊS NO RESTAURANTE",
-          "url": "https://www.youtube.com/watch?v=D-I9422m2o8"
-        },
-        {
-          "titulo": "COMO FALAR AO TELEFONE EM INGLÊS",
-          "url": "https://www.youtube.com/watch?v=8B4viMZMO1I"
-        },
-        {
-          "titulo": "MELHORE SUA PRONÚNCIA: VOGA...",
-          "url": "https://www.youtube.com/watch?v=EggGC9BtWUs"
-        }
-      ]
+      }
     },
-
-
     {
+      "id": 5,
       "titulo": "Rhavi Carneiro's Fluency TV",
       "descricao": "Canal para estudar inglês",
       "cor": "#49200b",
       "link_extra": {
         "text": "Visitar canal",
         "url": "https://www.youtube.com/channel/UCom75ytjvnPcVwX5yAOvXbA"
-      },
-      "videos": [
-        {
-          "titulo": "Aprenda 3 expressões importantes com (what)",
-          "url": "https://www.youtube.com/watch?v=Z60ND_eEZpA"
-        },
-        {
-          "titulo": "Cup or glass? Como dizer copo em inglês",
-          "url": "https://www.youtube.com/watch?v=qX84Tv5E3Sc"
-        },
-        {
-          "titulo": "Aprenda a pronunciar WORLD e GIRL,",
-          "url": "https://www.youtube.com/watch?v=UG389G3b9QI"
-        },
-        {
-          "titulo": "O que significa (don't pass me by?)",
-          "url": "https://www.youtube.com/watch?v=GNSv-TTN_j0"
-        },
-        {
-          "titulo": "Fluency Talks - Prática de Conversação",
-          "url": "https://www.youtube.com/watch?v=BdvdeX_MXyc"
-        },
-        {
-          "titulo": "AULA DE GRAMÁTICA: FALANDO SOBRE FUTURO",
-          "url": "https://www.youtube.com/watch?v=wqOo7X7eoE0"
-        }
-      ]
+      }
     }
-  
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "A PRONÚNCIA DE –ED",
+      "url": "https://www.youtube.com/watch?v=C4GtEIBCXq4&t=7s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNC...!",
+      "url": "https://www.youtube.com/watch?v=5gkZWcp_a08&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=1"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "A DUPLA CONSOANTE DE INGLÊS!",
+      "url": "https://www.youtube.com/watch?v=oYbGsuMO4Dk&list=PLFJshFlF-r5nasW2Wm1PSywi1XHsxZdoX&index=2"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "COMO DOMINAR O TRAVA-LÍNGUA MAIS DIFÍC...",
+      "url": "https://www.youtube.com/watch?v=KeqdGMNZgrM"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "Inglês com Filmes & Séries 009: The Hateful Eight",
+      "url": "https://www.youtube.com/watch?v=8MGhNvBO2FE"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "On The One Hand, On The Other Hand...",
+      "url": "https://www.youtube.com/watch?v=cDbYXFZojiE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "I'm game | O que significa esta expressão?",
+      "url": "https://www.youtube.com/watch?v=dkx0vdxkzGM"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Inglês com Filmes & Séries 003: The Dark Knight",
+      "url": "https://www.youtube.com/watch?v=oD5Rb0BVFPs"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Como se diz “O Tempo Todo” em inglês?",
+      "url": "https://www.youtube.com/watch?v=KRrHERZtShE"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Como se diz “Sabichão” em inglês?",
+      "url": "https://www.youtube.com/watch?v=Yu7YitSTjHU"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "O 5º SEGREDO PARA APRENDER INGLES",
+      "url": "https://www.youtube.com/watch?v=20ScORRTSMo"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "8 jeitos comuns de dizer (Não entendi) em inglês",
+      "url": "https://www.youtube.com/watch?v=OISnvDRyBTo"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Qual é a diferença entre OTHER e ANOTHER?",
+      "url": "https://www.youtube.com/watch?v=OlowLiigZ3k"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "7 frases em inglês que NÃO SIGNIFICAM o que parecem",
+      "url": "https://www.youtube.com/watch?v=AGrzYJEdV9U"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "10 formas de dizer (De Nada)",
+      "url": "https://www.youtube.com/watch?v=eFEdCNvvrnk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "(TWO,) (TO) e (TOO )NÃO têm a mesma pronúncia!",
+      "url": "https://youtu.be/yN4fqHT-UtU?list=PLjpyEr5lZ3vv1ZV7om_3xaAIoAyOUnROc"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "USED TO X BE USED TO X GET USED TO I",
+      "url": "https://www.youtube.com/watch?v=CqAxROO0-jY"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Aprender inglês: POR ONDE COMEÇAR?",
+      "url": "https://www.youtube.com/watch?v=OhGWrVK8iwE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "TESTE DE PRONÚNCIA (nível HARD!)",
+      "url": "https://www.youtube.com/watch?v=ElvPlDVh1og"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "50 FRASES ESSENCIAIS EM INGLÊS (em 10 minutos!)",
+      "url": "https://www.youtube.com/watch?v=PJT6vROO3eM"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "OS 10 VERBOS MAIS USADOS NO INGLÊS",
+      "url": "https://www.youtube.com/watch?v=7V68WIFtZww"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "INGLÊS NO RESTAURANTE",
+      "url": "https://www.youtube.com/watch?v=D-I9422m2o8"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "COMO FALAR AO TELEFONE EM INGLÊS",
+      "url": "https://www.youtube.com/watch?v=8B4viMZMO1I"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "MELHORE SUA PRONÚNCIA: VOGA...",
+      "url": "https://www.youtube.com/watch?v=EggGC9BtWUs"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Aprenda 3 expressões importantes com (what)",
+      "url": "https://www.youtube.com/watch?v=Z60ND_eEZpA"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Cup or glass? Como dizer copo em inglês",
+      "url": "https://www.youtube.com/watch?v=qX84Tv5E3Sc"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Aprenda a pronunciar WORLD e GIRL,",
+      "url": "https://www.youtube.com/watch?v=UG389G3b9QI"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "O que significa (don't pass me by?)",
+      "url": "https://www.youtube.com/watch?v=GNSv-TTN_j0"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Fluency Talks - Prática de Conversação",
+      "url": "https://www.youtube.com/watch?v=BdvdeX_MXyc"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "AULA DE GRAMÁTICA: FALANDO SOBRE FUTURO",
+      "url": "https://www.youtube.com/watch?v=wqOo7X7eoE0"
+    },
+    {
+      "titulo": "10 FRASES CURTINHAS QUE DARÃO UM UP...",
+      "url": "https://youtu.be/aXRNWVdHuE0",
+      "categoriaId": 1,
+      "id": 31
+    }
   ]
 }

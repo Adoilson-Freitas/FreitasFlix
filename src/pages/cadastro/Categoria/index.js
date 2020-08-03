@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import { Main, Button, Loading } from './styles';
+import useForm from '../../../hooks/useForm';
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
@@ -9,22 +11,10 @@ export default function CadastroCategoria() {
     descricao: '',
     cor: '#ff0000',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
-    );
-  }
 
   useEffect(() => {
     const URL_DB = window.location.hostname.includes('localhost')
@@ -45,10 +35,9 @@ export default function CadastroCategoria() {
         <form
           onSubmit={function handleSubmit(infosDoEvento) {
             infosDoEvento.preventDefault();
-
             setCategorias([...categorias, values]);
 
-            setValues(valoresIniciais);
+            clearForm();
           }}
         >
           <FormField
@@ -80,6 +69,7 @@ export default function CadastroCategoria() {
             {' '}
             <button type="submit">Cadastrar</button>
           </Button>
+          <Link to="/">Home</Link>
         </form>
 
         {categorias.length === 0 && (
