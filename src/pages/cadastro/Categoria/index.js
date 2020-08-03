@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import { Main, Button, Loading } from './styles';
 import useForm from '../../../hooks/useForm';
+import config from '../../../config';
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
@@ -19,7 +20,7 @@ export default function CadastroCategoria() {
   useEffect(() => {
     const URL_DB = window.location.hostname.includes('localhost')
       ? 'http://localhost:3333/categorias'
-      : 'https://english-flix.herokuapp.com/categorias';
+      : `${config.URL_BACKEND}categorias`;
 
     fetch(URL_DB).then(async (serverDados) => {
       const dados = await serverDados.json();
